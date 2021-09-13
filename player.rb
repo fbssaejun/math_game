@@ -6,15 +6,15 @@ class Player
   end
 
   def win
-    @score
+    score
   end
 
   def lose
-    @score -= 1
+    self.score -= 1
   end
 
   def to_s
-    "#{@name}: #{@score}/3"
+    "#{self.name}: #{self.score}/3"
   end
 
 end
